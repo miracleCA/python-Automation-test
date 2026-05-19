@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  api:
+    image: infralightio/test-integration-api
+    container_name: test-api
+    ports:
+      - "8080:8080"
